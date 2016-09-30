@@ -9,11 +9,12 @@ The main idea is to quickly crop the images to a square, in sequence, centered o
 
 ## The program structure
 Here are the steps followed by the program:
-1. Ask user to select images in the directory of the program (crop_resize.py)
-2. For each of these images, display the bottle in a resizable window. The user will have to click on the top and bottom of the bottle (in order to get the height and center point of the bottle in the image)
-3. The image is cropped in a square, centered in the center of the bottle, and of side heightBottle (1+addHeight). The parameter addHeight being in percent the extra height we want around the bottle (by default 10%).
-4. The images are reduced to a RxR resolution, with R an int, normally 64 or 128.
-5. The images are saved in a new directory called /resized, where they appear in the format: CUID#_liquid_%level_RxR_UniqueCode.png
+
+ 1. Ask user to select images in the directory of the program (crop_resize.py)
+ 2. For each of these images, display the bottle in a resizable window. The user will have to click on the top and bottom of the bottle (in order to get the height and center point of the bottle in the image)
+ 3. The image is cropped in a square, centered in the center of the bottle, and of side heightBottle (1+addHeight). The parameter addHeight being in percent the extra height we want around the bottle (by default 10%).
+ 4. The images are reduced to a RxR resolution, with R an int, normally 64 or 128.
+ 5. The images are saved in a new directory called /resized, where they appear in the format: CUID#_liquid_%level_RxR_UniqueCode.png
 
 ## Dependencies
 #### Tkinter (GUI)
